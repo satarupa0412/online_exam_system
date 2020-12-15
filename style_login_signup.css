@@ -1,0 +1,163 @@
+body{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   background: url("pic6.jpg");
+   background-size: cover;
+   background-position: center;
+   font-family: sans-serif;
+}
+.container
+{
+    width: 80%;
+    align-content: flex-end;
+}
+header::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+header
+{
+    background: linear-gradient(rgba(193, 66, 66, 0.3),rgba(0,0,0,0.5));
+}
+.logo
+{
+    float: left;
+    font: bold;
+    font-size: 30px;
+    padding-left: 50px;
+    background: -webkit-linear-gradient(120deg, #ff00f7, #00d0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+nav ul
+{
+    margin: 0;
+    padding-right: 10px;
+    list-style: none;
+}
+nav li
+{
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+}
+nav a
+{
+    color: chocolate;
+    text-transform: uppercase;
+}
+nav a:hover
+{
+    color:lightseagreen;
+}
+
+.page-title h1
+{
+    font-size: 32px;
+    line-height: 10px;
+    color: darkmagenta;
+    padding: 10px;
+    opacity: 0.8;
+    margin: 0px 500px 50px 500px;
+    background-color: aliceblue;
+    
+}
+.page-title h2
+{
+    font-size: 20px;
+    color: black;
+}
+.page-title h3
+{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 510px;
+    color: firebrick;
+}
+.form-control
+{
+    width: 400px;
+    height: 30px;
+    border-bottom: 2px solid gray;
+    background: transparent;
+    background-color: black;
+    margin-bottom: 16px;
+    color:bisque;
+}
+form .submit
+{
+    background: #fff;
+    color: cornflowerblue;
+    font-weight: bold;
+    height: 25px;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100px;
+}
+form .submit:hover
+{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+:placeholder-shown
+{
+  background-color: aliceblue;  
+}
+.button1
+{
+    position:absolute;
+    top:82%; 
+    right:590;
+    height: 30px;
+    background-color: darksalmon;
+}
+.button1:hover
+{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+.no-account
+{
+    color:yellow;
+    padding: 10px;
+    opacity: 0.8;
+    margin: 10px 500px 50px 500px;
+    background-color: black;
+}
+.registered
+{
+    position:absolute;
+    color:brown;
+    top: 80%;
+    right: 650;
+    font-size: 16px;   
+}
+.page-title h2
+{
+    color:darkblue;
+    font-size: 25px;
+}
+.button2
+{
+    position: absolute;
+    top: 30;
+    right: 20;
+    background-color: darkseagreen;
+    height: 30px;
+}
+.button2:hover
+{
+    cursor: pointer;
+    background-color: beige;
+}
+.signup-form
+{
+    background: rgba(0, 0, 0, 0.4);
+    margin-left: 250px;
+    margin-right: 250px;    
+}

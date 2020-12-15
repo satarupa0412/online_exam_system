@@ -1,0 +1,104 @@
+body
+{
+  background-color: bisque;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1
+{
+    text-align: center;
+    margin-top: 2%;
+    color: deeppink;
+    font-family: 'Sansita Swashed', cursive;
+}
+.first-button-sets
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+.second-button-sets
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+.manage-admin
+{
+    height: 300px;
+    width: 300px;
+    font-size: 30px;
+    background-color: cadetblue;
+    opacity: 0.8;
+}
+.students
+{
+    height: 300px;
+    width: 300px;
+    font-size: 30px;
+    background-color: cornflowerblue;
+    opacity: 0.8;
+}
+.subjects
+{
+    height: 300px;
+    width: 300px;
+    font-size: 30px;
+    background-color: deepskyblue;
+    opacity: 0.8;
+}
+.question-paper
+{
+    height: 300px;
+    width: 300px;
+    font-size: 30px;
+    background-color: chocolate;
+    opacity: 0.8;
+}
+.question
+{
+    height: 300px;
+    width: 300px;
+    font-size: 30px;
+    background-color: darkgoldenrod;
+    opacity: 0.8;
+}
+.feedback
+{
+    height: 300px;
+    width: 300px;
+    font-size: 30px;
+    background-color: lightcoral;
+    opacity: 0.8;
+}
+.manage-admin:hover{
+    color: bisque;
+    cursor: pointer;
+}
+.students:hover{
+    color: bisque;
+    cursor: pointer;
+}
+.subjects:hover
+{
+    color: bisque;
+    cursor: pointer;
+}
+.question-paper:hover
+{
+    color: bisque;
+    cursor: pointer;
+}
+.question:hover
+{
+    color: bisque;
+    cursor: pointer;
+}
+.feedback:hover
+{
+    color: bisque;
+    cursor: pointer;
+}

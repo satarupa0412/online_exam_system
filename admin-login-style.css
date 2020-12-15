@@ -1,0 +1,61 @@
+body{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   background: url("pic30.jpg");
+   background-size: cover;
+   background-position: center;
+   font-family: sans-serif;
+}
+h1
+{
+    font-size: 35px;
+    line-height: 10px;
+    color: firebrick;
+    margin-top: 10%;
+    background: rgba(255,255,0,0.5);
+}
+.form-control
+{
+    width: 400px;
+    height: 60px;
+    border-bottom: 2px solid gray;
+    background: transparent;
+    margin-bottom: 16px;
+    color: black;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 18px;
+}
+.admin-login-form
+{
+    background-color:rgba(218,165,32,0.3);
+    margin:-18 240 20 240;
+    border: 1px solid black;
+    border-radius: 50px 50px 50px 50px;
+}
+.admin-login-form input[type=submit]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    width: 200px;
+}
+.admin-login-form input[type=submit]:hover
+{
+    cursor: pointer;
+    background-color: green;
+}
+.heading{
+    background-color:rgba(128,0,0,0.8);
+    margin:10% 240 20 240;
+    border:1px solid black;
+    padding:2%;
+    font-size:25px;
+    border-radius: 15px;
+    font-weight: bolder;
+}

@@ -1,0 +1,22 @@
+body
+{
+  background-color: aliceblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1
+{
+    text-align: center;
+    color: blue;
+}
+.para1
+{
+    font-size: 25px;
+    color: black;
+}
+.para2
+{
+    font-size: 25px;
+    color: black;
+}

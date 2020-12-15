@@ -1,0 +1,52 @@
+body{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   background-color: antiquewhite;
+   background-size: cover;
+   background-position: center;
+   font-family: sans-serif;
+}
+.form-control
+{
+    width: 400px;
+    height: 60px;
+    border-bottom: 2px solid gray;
+    background: transparent;
+    margin-bottom: 16px;
+    color: black;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 18px;
+}
+.add-admin-form
+{
+    background-color: maroon;
+    opacity: 0.8;
+    width: 500px;
+    margin: auto;
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 5%;
+}
+.add-admin-form input[type=submit]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    width: 200px;
+}
+.add-admin-form input[type=submit]:hover
+{
+    cursor: pointer;
+    background-color: green;
+}
+h3
+{
+    font-size: 25px;
+    background-color: darkseagreen;
+}

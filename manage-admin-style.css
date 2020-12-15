@@ -1,0 +1,38 @@
+body
+{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   background-color: burlywood;
+   background-size: cover;
+   background-position: center;
+   font-family: sans-serif;
+}
+.add
+{
+    height: 100px;
+    width: 200px;
+    margin-top: 10%;
+    margin-left: -10%;
+    font-size: 20px;
+    background-color: skyblue;
+}
+.add:hover
+{
+    cursor: pointer;
+    background-color: green;
+}
+.delete
+{
+    height: 100px;
+    width: 200px;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 20px;
+    background-color: skyblue;
+}
+.delete:hover
+{
+    cursor: pointer;
+    background-color: green;
+}

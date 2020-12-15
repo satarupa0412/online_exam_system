@@ -1,0 +1,40 @@
+body {
+  background-color: lightgoldenrodyellow;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1
+{
+    text-align: center;
+    color: maroon;
+}
+.questions
+{
+    float: left;
+    font-size: 20px;
+    color: black;
+}
+.timerx
+{   
+    padding: 10px;
+    background-color: cadetblue;
+    float: right;
+    font-size: 25px;
+    position:absolute;
+    top:5;
+    right:0;
+}
+form .submit
+{
+    background: #fff;
+    color: cornflowerblue;
+    font-weight: bold;
+    height: 25px;
+    font-size: 20px;
+    justify-content: center;
+}
+form .submit:hover
+{
+    background-color: green;
+}

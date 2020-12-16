@@ -26,7 +26,7 @@ include('connectiondb.php');
  $q = 0;
  $r = 0;
 
- for($i = 0; $i < 2; $i++){
+ for($i = 0; $i < $no_of_questions; $i++){
      if($all_selected_answer[$i] == "Select your answer"){
          $unattempted_answers[$p] = $i+1; 
          $p = $p + 1;

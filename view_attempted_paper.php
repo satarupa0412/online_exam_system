@@ -31,6 +31,7 @@
     <body>
         <?php
            include ('connectiondb.php');
+           $email = $_GET['e'];
            $qp_id = $_GET['v']; 
            $query1 = "SELECT * FROM QUESTIONS WHERE QP_ID='$qp_id'";
            $query_run1 = mysqli_query($conn,$query1);
@@ -56,6 +57,6 @@
       }
         echo "</table>";
 ?>
-        <button class="button1" onclick="window.location.href='subjects.php'">Subjects Page</button>
+        <button class="button1" onclick="window.location.href='subjects.php?v=<?php echo $email ?>'">Subjects Page</button>
     </body>
 </html>

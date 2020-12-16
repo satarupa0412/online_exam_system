@@ -41,7 +41,7 @@
     <body>
         <h1>Let's Start.Choose one option for each question.</h1>
         <div><span id = "warning" style="color:red"></span></div>
-        <form id="question-paper"action="result.php?v=<?php echo $qp_id ?>&n=<?php echo $noOfQuestions ?>" method="POST">
+        <form id="question-paper"action="result.php?v=<?php echo $qp_id ?>&n=<?php echo $noOfQuestions?>&st=<?php echo $startTime ?>&e=<?php echo $email ?>" method="POST">
         <?php
            while($rows= mysqli_fetch_array($query_run)) {
               $qp_number = $rows[0];

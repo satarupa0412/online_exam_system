@@ -5,7 +5,9 @@ include('connectiondb.php');
  $all_selected_answer = array();
  $wrong_answers = array();
  $unattempted_answers = array();
- $right_answers_qno = array();
+ $right_answers_qno = array(); 
+ $email = $_GET['e'];
+ $startTime = $_GET['st'];
  $qp_id = $_GET['v'];
  $no_of_questions = $_GET['n'];
  $query1 = "SELECT * FROM  QUESTIONS WHERE QP_ID='$qp_id'";
@@ -44,6 +46,8 @@ include('connectiondb.php');
          }
      }
  }
+$query3 = "UPDATE USER_RESULT SET SCORE = '$score' WHERE START_TIME = '$startTime'";
+$query_run3 = mysqli_query($conn,$query3);
 ?>
 
 
@@ -173,8 +177,8 @@ include('connectiondb.php');
             </table>
         </div>
         <div align=center class="button-display">
-            <button class="button-design" onclick="window.location.href='view_attempted_paper.php?v=<?php echo $qp_id ?>'">View All Q&amp;A</button>
-            <button class="button-design" onclick="window.location.href='subjects.php'">Subjects Page</button>
+            <button class="button-design" onclick="window.location.href='view_attempted_paper.php?v=<?php echo $qp_id ?>&e=<?php echo $email ?>'">View All Q&amp;A</button>
+            <button class="button-design" onclick="window.location.href='subjects.php?v=<?php echo $email ?>'">Subjects Page</button>
         </div>
         
     </body>
